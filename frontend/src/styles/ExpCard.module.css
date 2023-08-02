@@ -1,0 +1,177 @@
+.Card {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 1.2em;
+    height: 23em;
+    width: 18.5em;
+    margin: 0.6em;
+    float: center;
+    text-align: center;
+    padding: 0.3em;
+    position: relative;
+
+}
+
+.CardTitle {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.Card h3 {
+    font-size: x-large;
+    text-align: left;
+    color: black;
+    min-width: 100%;
+    margin-top: 1.25em;
+    margin-bottom: 0em;
+    margin-left: .5em;
+}
+
+.Card a {
+    color: black;
+    text-decoration: none;
+}
+
+.Card p {
+    float: center;
+}
+
+.CardLocation {
+    font-size: medium;
+    text-align: left;
+    margin-top: 0em;
+    margin-left: .9em;
+    margin-bottom: .5em;
+}
+
+.AddToTripButton {
+    position: absolute;
+    top: .5em;
+    right: .5em;
+    font-size: x-small;
+    z-index: 1;
+}
+
+.Photo {
+    width: 17em;
+    height: 11em;
+    border-radius: 7px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 2em;
+    z-index: 0;
+}
+
+.Image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.CardRating {
+    font-size: smaller;
+    font-weight: bold;
+    text-align: left;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 1.25em;
+    margin-left: .7em;
+}
+
+.CardLink {
+    text-align: right;
+    color: black;
+    margin-right: 10%;
+    font-size: smaller;
+}
+
+.CardDescription {
+    color: darkslategrey;
+}
+
+.CardKeywords {
+    color: darkgray;
+    text-align: right;
+}
+
+.CardGrid {
+    float: center;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.Added {
+    margin-top: .5em;
+    color: green;
+
+}
+
+.AddNewExpButton {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #1976D2;
+    border: 1px solid #1976D2;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.2s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.AddNewExpButton:hover {
+    color: #1976D2;
+    background-color: #F4F6F6;
+}
+
+.DeleteLink {
+    text-align: right;
+    color: white;
+    margin-right: .75em;
+    font-size: smaller;
+}
+
+.DeleteExpButton {
+    display: inline-block;
+    padding: 5px 10px;
+    color: white !important;
+    background-color: #d2191a;
+    border: 1px solid #d2191a;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.2s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 1em;
+
+}
+
+.DeleteExpButton:hover {
+    color: #d2191a !important;
+    background-color: #F4F6F6;
+}
+
+.menuList {
+    max-height: 100px; 
+    overflow-y: auto; 
+}

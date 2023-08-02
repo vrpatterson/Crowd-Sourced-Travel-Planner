@@ -1,0 +1,30 @@
+body {
+  float: center;
+  text-align: center;
+  margin: 0px;
+  background-color: #F4F6F6;
+  font-family: 'Abel', sans-serif;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+form {
+  display: inline-block;
+  text-align: center;
+  width: fit-content;
+  border: 2px;
+  border-width: 2px;
+  border-color: rgb(120, 120, 120);
+  border-style: solid;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+form div {
+  margin: 20px 20px;
+  padding: 10px 0px;
+}
+
+form button {
+  margin: 10px;
+  padding: 10px;
+}
