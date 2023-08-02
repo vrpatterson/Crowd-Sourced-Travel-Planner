@@ -1,4 +1,4 @@
-# travel-planner
+# Travel-Planner
 Crowd-Sourced Travel Planner created for OSU Capstone
 
 # Backend
@@ -61,4 +61,3 @@ To run frontend locally:
 ## Big thanks to :
 - The Net Ninja Next.JS playlist @ https://www.youtube.com/playlist?list=PL4cUxeGkcC9g9gP2onazU5-2M-AzA8eBw
   -  Referenced for page routing, and Layout.js/Header.js/Footer.js structure
-# Crowd-Sourced-Travel-Planner
